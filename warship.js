@@ -1,12 +1,4 @@
-/* Это объявление переменной, мы наши кнопку по тегу */
-const button = document.querySelector('button');
-
-/* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
-button.addEventListener('click', function() 
-
-{
 alert('Хорошо там где мы есть, где нас нет там плохо! Но ничего, я и туда доберусь!');
-
 
 let map = [null,'water','water','water','water','water','water','water','water']; //Объявляем массив с картой боя
 var localship = Math.floor(Math.random() * 8)+1;
@@ -65,5 +57,3 @@ switch (shotamount)
         alert ("Спецоперация окончена. Возьмите на полке пирожок. ");       
         break; 
     }    
-
-})
