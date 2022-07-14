@@ -1,7 +1,7 @@
 alert('Хорошо там где мы есть, где нас нет там плохо! Но ничего, я и туда доберусь!');
 
 let map = [null,'water','water','water','water','water','water','water','water']; //Объявляем массив с картой боя
-var localship = Math.floor(Math.random() * 8)+1;
+var localship = Math.floor(Math.random() * 7)+1;
 map[localship] = 'ship';
 map[localship+1] = 'ship'; //Выводим корабль на карту
 var shiplife = 2;
